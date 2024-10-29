@@ -1,0 +1,152 @@
+// Global Styles
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+// Instagram Section
+.instagram-section {
+  padding: 50px 0;
+  background-color: #f7f7f7;
+
+  .section-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+
+  .section-subtitle {
+    height: 10px;
+    max-width: 650px;
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 40px;
+  }
+
+  .instagram-posts {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 40px;
+
+    .instagram-post {
+      width: 200px;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      overflow: hidden;
+      .post-header {
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        .user-avatar {
+          width: 30px;
+          height: 30px;
+          border-radius: 50%;
+          margin-right: 10px;
+        }
+        .username {
+          font-weight: bold;
+        }
+      }
+      .post-image {
+        width: 100%;
+      }
+      .post-footer {
+        padding: 10px;
+        .likes {
+          font-weight: bold;
+        }
+        .caption {
+          margin-top: 5px;
+        }
+      }
+    }
+  }
+
+  .instagram-button {
+    padding: 10px 30px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+}
+
+// Recipe Section
+.recipe-section {
+  padding: 50px 0;
+  background-color: #fff;
+
+  .row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+
+    .section-title-left {
+      text-align: left;
+      font-size: 2rem;
+    }
+
+    .section-subtitle-right {
+      text-align: right;
+      font-size: 1rem;
+      color: #666;
+    }
+  }
+}
+
+// Newsletter Section
+.newsletter-section {
+  padding: 50px 0;
+  background-color: #f1f8ff;
+
+  .newsletter-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    input {
+      padding: 10px;
+      border-radius: 30px;
+      border: 1px solid #ccc;
+      margin-right: -40px;
+      flex: 1;
+      max-width: 400px;
+      padding-right: 100px;
+    }
+
+    .subscribe-button {
+      background-color: #000;
+      color: #fff;
+      border: none;
+      border-radius: 40px;
+      padding: 10px 30px;
+      position: absolute;
+      right: 5px;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+
+    .form-images {
+      position: relative;
+      .bottom-left-image {
+        position: absolute;
+        bottom: -20px;
+        left: -20px;
+      }
+      .bottom-right-image {
+        position: absolute;
+        bottom: -20px;
+        right: -20px;
+      }
+    }
+  }
+}

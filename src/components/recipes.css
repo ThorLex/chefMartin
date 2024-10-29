@@ -1,0 +1,29 @@
+.recipe-card {
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-card .card-body {
+  padding: 20px;
+}
+
+.recipe-card .card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.recipe-card .card-text {
+  font-size: 1rem;
+  color: #555;
+}
+
+.alert-success {
+  background-color: #d4edda;
+  color: #000000;
+  border-color: #c3e6cb;
+  font-size: 1.25rem;
+}
+.special-card {
+  background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #dcfdffa1 100%);
+}
+/* Rectangle 8 */

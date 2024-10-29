@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Varela+Round&display=swap");
+
+.category-item {
+  font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  font-style: bold;
+  margin-top: 0.9rem;
+  padding: 15px;
+  border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  color: #000;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.category-item img {
+  width: 60px;
+  height: auto;
+}
+
+.category-item:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+}
+
+p {
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+/* Colors and gradients for each category, from bottom to top */
+.breakfast {
+  background: linear-gradient(to top, #68cdffec, #ffffff);
+}
+
+.vegan {
+  background: linear-gradient(to top, #45ff55e3, #ffffff);
+}
+
+.meat {
+  background: linear-gradient(to top, #ff6889, #ffffff);
+}
+
+.dessert {
+  background: linear-gradient(to top, #fd6dc6e7, #ffffff);
+}
+
+.lunch {
+  background: linear-gradient(to top, #ffe75ce1, #ffffff);
+}
+
+.chocolate {
+  background: linear-gradient(to top, #af8c67e7, #ffffff);
+}
+.categorie-btn {
+  background-color: #e6f7ff;
+
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.categorie-btn:hover {
+  background-color: #b4d8fd;
+}

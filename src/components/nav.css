@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Varela+Round&display=swap");
+/* Navbar container */
+.navbar {
+  top: 0;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  backdrop-filter: blur(1.3rem);
+  background: linear-gradient(
+    81deg,
+    rgb(9, 255, 0) 0%,
+    #00000000 80%,
+    #e6151500 100%
+  );
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  z-index: 10; /* Ensure navbar stays on top */
+  flex-wrap: nowrap;
+}
+
+/* Logo styling */
+.navbar-logo span {
+  font-family: "Lobster", sans-serif;
+  font-weight: 800;
+  font-size: 26px;
+  color: #333;
+}
+.navbar-logo::before {
+  background-image: url("./../images/image2.jpg"); /* Image path */
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  left: -20px; /* Adjust based on positioning */
+  top: 0;
+  width: 100px; /* Adjust width as needed */
+  height: 50px; /* Adjust height as needed */
+  opacity: 0.8; /* Adjust opacity to blend */
+  z-index: -1; /* Ensures it stays behind the logo */
+}
+.navbar-logo .dot {
+  color: darkorange;
+}
+
+/* Navbar links container */
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  flex-grow: 1; /* Ensures it takes available space between logo and icons */
+  justify-content: center;
+}
+
+.navbar-links li {
+  display: inline;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navbar-links a:hover {
+  color: #5ab27e;
+}
+
+/* Social media icons container */
+.navbar-social {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-social a {
+  margin-left: 20px;
+  color: #333;
+  font-size: 20px;
+  transition: color 0.3s ease;
+}
+
+.navbar-social a:hover {
+  color: #5ab27e;
+}
+
+/* African design styling similar to the image you uploaded */
+.african-design {
+  margin-left: 20px; /* Space between icons and design */
+  width: 40px;
+  height: 40px;
+  border-radius: 50%; /* Circular shape */
+  background-color: #2a5934; /* Earthy green tone */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: bold;
+  font-family: "varela round", sans-serif;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Text inside the African design circle */
+.african-design span {
+  font-size: 14px;
+}
+
+/* Responsive media queries for small screens */
+@media (max-width: 768px) {
+  .navbar {
+    flex-wrap: wrap;
+  }
+
+  .navbar-links {
+    flex-grow: 0;
+  }
+
+  .navbar-logo {
+    margin-bottom: 10px;
+  }
+}

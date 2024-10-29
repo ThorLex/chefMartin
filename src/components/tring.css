@@ -1,0 +1,69 @@
+.instagram-post {
+  max-width: 280px;
+  margin-bottom: 20px;
+}
+
+.recipe-card {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.newsletter-section {
+  box-sizing: border-box;
+  background-color: #cce6f5;
+  border-radius: 10px;
+  padding: 50px;
+  display: grid;
+  justify-content: space-evenly;
+  justify-items: center;
+  justify-content: center !important;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.section-subtitle {
+  max-height: 150px;
+  display: flex;
+  overflow: hidden;
+  max-width: 650px;
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 40px;
+}
+
+.takeamll {
+  background-color: #ffffff !important;
+  border-radius: 15px;
+  margin: 5px;
+  padding: 8px;
+  max-width: 500px;
+  justify-content: space-evenly;
+  justify-items: center;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.image1 {
+  transform: translate(-40%, 80%);
+}
+
+.image2 {
+  transform: translate(150%, 80%);
+}
+
+.footer {
+  width: 100%;
+  color: aliceblue;
+  background-color: rgb(0, 0, 0);
+  height: 205px;
+}

@@ -1,0 +1,39 @@
+.categories-section {
+  padding: 20px;
+}
+
+.category-icon {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.breakfast-icon {
+  background: linear-gradient(45deg, #ff8d91, #fad0c4);
+}
+
+.vegan-icon {
+  background: linear-gradient(45deg, #a1c4fd, #c2e9fb);
+}
+
+.meat-icon {
+  background: linear-gradient(45deg, #fbc2eb, #a6c1ee);
+}
+
+.dessert-icon {
+  background: linear-gradient(45deg, #fddb92, #d1fdff);
+}
+
+.lunch-icon {
+  background: linear-gradient(45deg, #7ef8aa, #8fd3f4);
+}
+
+.chocolate-icon {
+  background: linear-gradient(45deg, #cfd9df, #e2ebf0);
+}
+
+.category-name {
+  font-size: 18px;
+  font-weight: bold;
+  background: linear-gradient(45deg, #6f10d4, #2575fc);
+  background-clip: text;
+}
